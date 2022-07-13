@@ -23,6 +23,8 @@ def uptime(url, name, header):
 
     return status_code_mum, gettime, cert_valid
 
+
+    ## For some reason this variable is out of sequence?
     status_code_mum = response.status_code()
 
     if response.status_code == 200:
